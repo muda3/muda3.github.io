@@ -1,0 +1,232 @@
+body,
+html {
+  text-align: center;
+  height: 100%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  font-family: "Work Sans", "sans-serif", "Meiryo", "ヒラギノ角ゴ";
+}
+#fh5co-header {
+  position: absolute;
+  top: 0;
+  width: auto;
+  z-index: 100;
+  text-align: center;
+  margin: auto;
+}
+#fh5co-header nav {
+  text-align: center;
+}
+#fh5co-header nav ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+#fh5co-header nav li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+#fh5co-header nav li a {
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+#fh5co-header nav li a span {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: 2px solid transparent;
+  display: block;
+  display: inline-block;
+}
+@media screen and (max-width: 76px) {
+  #fh5co-header nav li a {
+    padding: 10px 2px;
+    display: inline-block;
+  }
+}
+#fh5co-header nav li a:hover {
+  color: white;
+  display: inline-block;
+}
+#fh5co-header nav li a:hover span {
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+}
+#fh5co-header nav li.fh5co-active a {
+  color: #fff;
+  display: inline-block;
+}
+#fh5co-header nav li.fh5co-active a span {
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+}
+.titlegroup {
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 50%;
+  text-align: center;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  overflow: hidden;
+}
+.titlegroup2 {
+  position: relative;
+  overflow: hidden;
+}
+.title2 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: calc(50% - 25px);
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  line-height: 50px;
+}
+h2 {
+  text-align: left;
+}
+.scroool1 {
+  position: relative;
+}
+.bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+
+.bg1 {
+  width: 100%;
+  height: 0;
+  padding-top: calc(300 / 1000 * 100%);
+  background: url(images/12332.jpg) center center / cover no-repeat;
+  overflow: hidden;
+}
+.bg2 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 4;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(2, 300px);
+  grid-template-columns: repeat(6, 170px);
+  row-gap: 20px;
+  column-gap: 2%;
+  border-radius: 4px;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  background-color: white;
+  padding: 5em;
+}
+.com1-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.com1-2 {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.com2-1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.com2-2 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+.com3-1 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+.com3-2 {
+  grid-column: 5/7;
+  grid-row: 1/2;
+}
+.com4-1 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.com4-2 {
+  grid-column: 5/7;
+  grid-row: 2/3;
+}
+.com5-1 {
+  justify-content: center;
+  align-items: center;
+  column-count: 2;
+  column-gap: 2;
+  padding: 7em 10em 10em;
+  position: relative;
+}
+.container2 {
+  display: grid;
+  grid-template-rows: repeat(6, 300px);
+  grid-template-columns: repeat(5, 300px);
+  background-color: white;
+  padding: 10em;
+}
+.com6-1 {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  font-size: larger;
+}
+.com6-2 {
+  grid-row: 2/3;
+  grid-column: 1/4;
+  text-align: left;
+  font-size: 20px;
+}
+.com7-1 {
+  grid-row: 3/4;
+  grid-column: 1/4;
+  font-size: larger;
+}
+.com7-2 {
+  grid-row: 4/5;
+  grid-column: 1/5;
+  font-size: 20px;
+  text-align: left;
+}
+.com8-1 {
+  grid-row: 5/6;
+  grid-column: 1/5;
+  font-size: larger;
+}
+.com8-2 {
+  grid-row: 6/7;
+  grid-column: 1/5;
+  font-size: 20px;
+  text-align: left;
+}
+footer {
+  width: 100%;
+  background-color: #89c7de;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
